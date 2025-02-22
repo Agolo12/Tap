@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Configuration
-TELEGRAM_BOT_TOKEN = "your_telegram_bot_token_here"  # Replace with your bot token
+TELEGRAM_BOT_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7ImlkIjoiYTI2ZmM2OWItN2YxYi00MzVlLTk1Y2UtYmI5MWVjZDczZGMyIiwiZmlyc3RfbmFtZSI6IkFnb2xvVmluY2VudPCfkL7wn42F8J-MsVNFRUQkTU9LTCIsImxhbmd1YWdlX2NvZGUiOiJlbiIsInVzZXJuYW1lIjpudWxsfSwic2Vzc2lvbl9pZCI6MTQyNTEyMywic3ViIjoiYTI2ZmM2OWItN2YxYi00MzVlLTk1Y2UtYmI5MWVjZDczZGMyIiwiZXhwIjoxNzQyODMxMDQ2fQ.LqlPTE4gK0gYtxoeQNqZOnDPQLkU1jfW39XuMhkpKFE"  # Replace with your bot token
 TAP_API_URL = "https://gold-eagle-api.fly.dev/tap"
 PROGRESS_API_URL = "https://gold-eagle-api.fly.dev/user/me/progress"
 TAP_COUNT = 600  # Maximum taps per execution
